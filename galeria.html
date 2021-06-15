@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/d5b096cf21.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/galeria.css">
+        <script type="text/javascript" src="./scripts/galeria.js"></script>
+    </head>
+    <header>
+        <div class="header-container">
+            <div class="header-title">
+                <img src="images/logo.png" alt="Logo">
+                <div class="title">
+                    <h1>Introducción al desarrollo web</h1>
+                </div>
+            </div>
+            <div class="header-menu">
+                <div class="header-menu-item not-selected"><a href="index.html">Inicio</a></a></div>
+                <div class="header-menu-item not-selected"><a href="biografia.html">Biografía</a></div>
+                <div class="header-menu-item selected">Galería</div>
+            </div>
+        </div>
+    </header>
+    <body>
+        <div class="body-container">
+            <h2>Galería</h2>
+            <div class="btn-container">
+                <button class="selected" id="btn-hobby" onclick="showPhotosSection(1)">Hobbies</button>
+                <button id="btn-mascota" onclick="showPhotosSection(2)">Mascotas</button>
+                <button id="btn-paseo" onclick="showPhotosSection(3)">Paseos</button>
+            </div>
+            <!---->
+            <div class="img-container" id ="div-img-hobby">
+                <img src="./images/hobby1.jpg" alt="hobby 1">
+                <img src="./images/hobby2.jpg" alt="hobby 2">
+                <img src="./images/hobby3.jpg" alt="hobby 3">
+                <img src="./images/hobby4.jpg" alt="hobby 4">
+            </div>
+            <!---->
+            <div class="img-container" id ="div-img-mascota">
+                <img src="./images/mascota1.jpg" alt="mascota1">
+                <img src="./images/mascota2.jpg" alt="mascota2">
+                <img src="./images/mascota3.jpg" alt="mascota3">
+                <img src="./images/mascota4.jpg" alt="mascota4">
+            </div>
+            <!---->
+            <div class="img-container" id ="div-img-paseo">
+                <img src="./images/paseo1.jpg" alt="paseo1">
+                <img src="./images/paseo2.jpg" alt="paseo2">
+                <img src="./images/paseo3.jpg" alt="paseo3">
+                <img src="./images/paseo4.jpg" alt="paseo4">
+            </div>
+        </div>
+    </body>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-container-author">&#169; 2021 Hecho por Carolina Artavia</div>
+            <div class="footer-container-social-media">
+                <a href="https://www.facebook.com" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <i class="fab fa-instagram-square"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+                <a href="https://www.linkedin.com/"  target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</html>

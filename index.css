@@ -1,0 +1,55 @@
+.body-container img {
+    width: 100%;
+}
+
+.body-container-things {
+    display: flex;
+    width: 100%;
+}
+
+.body-container-things .learned {
+    width: 50%;
+    background-color: rgb(222, 248, 222);
+    margin: 5px;
+}
+
+.body-container-things .do {
+    width: 50%;
+    background-color:rgb(207, 229, 247);
+    margin: 5px;
+}
+
+i span {
+    margin-left: 10px;
+}
+
+.learned, .do {
+    padding: 10px;
+}
+
+.learned div, .do div {
+    margin-top: 10px;
+}
+
+.learned div:last-child, .do div:last-child {
+    margin-bottom: 10px;
+}
+
+header, body, footer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+.body-container {
+    margin: 0 50px;
+    background-color: honeydew;
+    /*padding: 0 50px;*/
+}
+
+body{
+    background-color: gray;
+}
+
+body h1, body p {
+    padding: 0 50px;
+}

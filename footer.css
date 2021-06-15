@@ -1,0 +1,16 @@
+.footer-container {
+    display: flex;
+    width: 100%;
+    background-color: rgb(146, 106, 156);
+    margin-top: 10px;
+    height: 35px;
+}
+
+.footer-container-author, .footer-container-social-media {
+    padding: 5px;
+    margin: 5px;
+}
+
+.footer-container-author {
+    border-right-style: solid;
+}
